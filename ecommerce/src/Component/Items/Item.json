@@ -1,0 +1,147 @@
+{
+    "electronic_items":[
+        {
+            "item_name":"WIRELESS AIRDOPS",
+            "item_id":"E01",
+            "item_desc":"AIRDOPS",
+            "sub_items":[
+                {
+                    "Sub_id":"L01",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 800",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    
+                },{
+                    "Sub_id":"L02",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 900",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                }
+            ]
+        },
+        {
+            "item_name":"STONE",
+            "item_id":"E02",
+            "item_desc":"STONE STONE",
+            "sub_items":[
+                {
+                    "Sub_id":"M01",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 5000",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                },{
+                    "Sub_id":"M02",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 6000",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                }
+
+            ]
+        },
+        {
+            "item_name":"AVANTE",
+            "item_id":"E03",
+            "item_desc":"AVANTE AVANTE",
+            "sub_items":[
+                {
+                    "Sub_id":"W01",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 4300",
+                    "s_img":"../../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                },{
+                    "Sub_id":"W02",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 5400",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                }
+                
+
+            ]
+        },
+        {
+            "item_name":"TREBEL",
+            "item_id":"E03",
+            "item_desc":"TREBEL TREBEL",
+            "sub_items":[
+                {
+                    "Sub_id":"W01",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 1300",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                },{
+                    "Sub_id":"W02",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 1400",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                }
+                
+
+            ]
+        },
+        {
+            "item_name":"DATACABLE",
+            "item_id":"E03",
+            "item_desc":"DATACABLE DATACABLE",
+            "sub_items":[
+                {
+                    "Sub_id":"W01",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 300",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                },{
+                    "Sub_id":"W02",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 400",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                }
+                
+
+            ]
+        },
+        {
+            "item_name":"HEADSET",
+            "item_id":"E03",
+            "item_desc":"HEADSET HEADSET",
+            "sub_items":[
+                {
+                    "Sub_id":"W01",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 1600",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                },{
+                    "Sub_id":"W02",
+                    "Company":"ROCKERZ",
+                    "Price":"Rs 1800",
+                    "s_img":"../../../Images/pic 5.webp",
+                    "Desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+                }
+                
+
+            ]
+        }
+
+
+    ]
+}
