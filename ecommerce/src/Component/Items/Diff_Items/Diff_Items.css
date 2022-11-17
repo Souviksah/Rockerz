@@ -1,6 +1,23 @@
 .items{
     background-color: lightgreen;
-    display: inline-block;
-    width: 25%;
-    border: 2px solid blue;
+    display: inline-block  table-header-group;
+    width: 15%;
+    border: 2px solid rgb(20, 20, 75);
+     /* margin-top: 30px;  */
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.style{
+    background-color:slategrey;
+}
+.motive{
+    /* width: 60%; */
+    /* padding: 50px 40px; */
+    /* margin-top: 160px; */
+    position: absolute;
+    
+    text-align: center;
+    
+
 }

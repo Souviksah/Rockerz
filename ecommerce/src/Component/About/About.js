@@ -6,6 +6,7 @@ import './About.css'
 export default function About() {
   return (
     <div>
+      <div className='app'>
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
@@ -26,8 +27,8 @@ export default function About() {
               </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 header-img w-30">
-              <img   src={"../../../Images/virat1.jpg"} className="motivepic" alt="homeimg"height="500px" width="500px"/>
-              
+              <img   src={"../../../Images/collaborate pic.webp"} className="motivepic" alt="homeimg"height="500px" width="500px"/>
+              </div>
             </div>
             </div>
           </div>

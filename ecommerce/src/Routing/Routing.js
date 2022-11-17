@@ -14,6 +14,8 @@ import Single_Item from '../Component/Items/Single_Item/Single_Item'
 import Header1 from '../Component/Header1/Header1'
 import Collection from '../Component/Collection/Collection'
 import Cart from '../Component/Addtocart/Cart'
+import List from '../Component/Search/List'
+import ContactUs from '../Component/Contact us/ContactUs'
 
 
 
@@ -33,9 +35,8 @@ export default function Routing() {
         <Route path="sub_item/:itemName" element={<Sub_Items/>}/>
         <Route path="Item/:itemName/:company" element={<Single_Item/>}/>
         <Route path="cart" element={<Cart/>} />
-        
-
-
+        <Route path="List" element={<List/>} />
+        <Route path="ContactUs" element={<ContactUs/>} />
 
         
       </Routes>

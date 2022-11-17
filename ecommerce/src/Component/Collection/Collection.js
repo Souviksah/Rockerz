@@ -1,10 +1,12 @@
 import React from 'react'
 import { Card,Button } from 'react-bootstrap';
+import './Collection.css';
 
 
 const Collection =()=> {
   return (
     <>
+    <div className='oppo'>
     <div className="my-5">
       <h1 className='tab-conter'>Collections</h1>
     </div>
@@ -16,10 +18,10 @@ const Collection =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top"  src={"../../../Images/pic1.webp"} />
       <Card.Body>
-        <Card.Title>AIRDOPS</Card.Title>
+         {/* <Card.Title>AIRDOPS</Card.Title>
         <Card.Text>
           Tune in now
-        </Card.Text>
+        </Card.Text>  */}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -28,10 +30,10 @@ const Collection =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={"../../../Images/pic 5.webp"} />
       <Card.Body>
-        <Card.Title>STONE</Card.Title>
+        {/* <Card.Title>STONE</Card.Title>
         <Card.Text>
          Start the party
-        </Card.Text>
+        </Card.Text> */}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -40,10 +42,10 @@ const Collection =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={"../../../Images/pic 6.webp"} />
       <Card.Body>
-        <Card.Title>AAVANTE</Card.Title>
+        {/* <Card.Title>AAVANTE</Card.Title>
         <Card.Text>
           Gets your now
-        </Card.Text>
+        </Card.Text> */}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -52,10 +54,10 @@ const Collection =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={"../../../Images/pic 7.webp"} />
       <Card.Body>
-        <Card.Title>TRebel</Card.Title>
+        {/* <Card.Title>TRebel</Card.Title>
         <Card.Text>
         Colors Galore
-        </Card.Text>
+        </Card.Text> */}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -64,10 +66,10 @@ const Collection =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={"../../../Images/pic 8.webp"} />
       <Card.Body>
-        <Card.Title>DATA CABLE</Card.Title>
+        {/* <Card.Title>DATA CABLE</Card.Title>
         <Card.Text>
          Connect now
-        </Card.Text>
+        </Card.Text> */}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -76,10 +78,10 @@ const Collection =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={"../../../Images/pic 9.webp"} />
       <Card.Body>
-        <Card.Title>Headset</Card.Title>
+        {/* <Card.Title>Headset</Card.Title>
         <Card.Text>
           Grab now
-        </Card.Text>
+        </Card.Text> */}
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -87,6 +89,7 @@ const Collection =()=> {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </>
   )

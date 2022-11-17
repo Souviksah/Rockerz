@@ -21,7 +21,9 @@ export default function Header() {
             </NavDropdown>
             
             <Nav.Link as={Link} to="/Items">Items</Nav.Link>
-            <Dropdown>
+            <Nav.Link as={Link} to="/ContactUs">ContactUs</Nav.Link>
+            
+            {/* <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
         Search
       </Dropdown.Toggle>
@@ -35,11 +37,11 @@ export default function Header() {
         <Dropdown.Item href="#/action-6">Headset</Dropdown.Item>
         
       </Dropdown.Menu>
-    </Dropdown>
-    <Nav.Link as={Link} to="/Cart"><BsCartFill/></Nav.Link>
+    </Dropdown> */}
+    {/* <Nav.Link as={Link} to="/Cart"><BsCartFill/></Nav.Link> */}
             
             
-            {/* <Form className="d-flex">
+            <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -47,7 +49,7 @@ export default function Header() {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </Form> */}
+          </Form>
 
           {/* <>
       <Button variant="outline-primary">Primary</Button>{' '}

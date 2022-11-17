@@ -14,6 +14,7 @@ export default function Sub_items() {
   return (
     <>
     <Container>
+      
       <h1> itemName:{itemObj.item_name}</h1>
       <Row xxl={4} xl={3} lg={3} mb={3} sm={2}>
       {itemObj.sub_items.map((subItem)=>{
@@ -33,7 +34,7 @@ export default function Sub_items() {
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={"../../../Images/Air.webp"} />
       <Card.Body>
         <Card.Title>{subItem.company}</Card.Title>
         <Card.Text>
@@ -44,8 +45,8 @@ export default function Sub_items() {
         </Link>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+     <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={"../../../Images/pic 6.webp"} />
       <Card.Body>
         <Card.Title>{subItem.company}</Card.Title>
         <Card.Text>
@@ -55,7 +56,7 @@ export default function Sub_items() {
         <Button variant="primary">Details</Button>
         </Link>
       </Card.Body>
-    </Card>
+    </Card> 
 
     </Col>
     

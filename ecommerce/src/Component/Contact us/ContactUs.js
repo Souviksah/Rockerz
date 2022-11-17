@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-import "./Login.css";
+import "./Contact.css";
 
-function Login() {
+function ContactUs() {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -59,15 +59,28 @@ function Login() {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label>Username </label>
-          <input type="text" name="uname" required />
-          {renderErrorMessage("uname")}
+          <label>Name </label>
+          <input type="text" name="name" required />
+          {renderErrorMessage("name")}
         </div>
         <div className="input-container">
-          <label>Password </label>
-          <input type="password" name="pass" required />
+          <label>Email </label>
+          <input type="Email" name="Email" required />
           {renderErrorMessage("pass")}
         </div>
+        <div className="input-container">
+          <label>Phone no </label>
+          <input type="Phone no" name="Phone no" required />
+          {renderErrorMessage("pass")}
+        </div>
+        <label for="cars">Choose your type:</label>
+
+<select id="cars">
+  <option value="phone">phone</option>
+  <option value="email">email</option>
+  {/* <option value="opel">Opel</option>
+  <option value="audi">Audi</option> */}
+</select>
         <div className="button-container">
           <input type="submit" />
         </div>
@@ -77,16 +90,12 @@ function Login() {
 
   return (
     <div className="app">
-      <div className="col-lg-11 order-1  order-lg-2,   header-img w-30 d-flex justify-content-center flex-column">
-      
-      <img src={'../../../../Images/boat.jpg'} className="pop" alt='pop' height="300px" width="400px" />
-      </div>
       <div className="login-form">
-        <div className="title">Log In</div>
+        <div className="title">Contact Us</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
       </div>
     </div>
   );
 }
 
-export default Login;
+export default ContactUs;

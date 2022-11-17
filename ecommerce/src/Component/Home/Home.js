@@ -12,7 +12,7 @@ const Home =()=> {
           className="d-block w-100"
           src={"../../../Images/allpic.jpg"}
           alt="First slide"
-          height="300px" width="200px"
+          height="600px" width="200px"
 
         />
        
@@ -22,7 +22,7 @@ const Home =()=> {
           className="d-block w-100"
           src={"../../../Images/Rockerz.jpg"}
           alt="Second slide"
-          height="300px" width="200px"
+          height="600px" width="200px"
         />
 
        
@@ -32,13 +32,13 @@ const Home =()=> {
           className="d-block w-100"
           src={"../../../Images/boat.jpg"}
           alt="Third slide"
-          height="300px" width="200px"
+          height="600px" width="200px"
         />
 
         
       </Carousel.Item>
     </Carousel>
-    <div className="my-5">
+    {/* <div className="my-5">
       <h1 className='tab-conter'>Collections</h1>
     </div>
     <div className='container-fluid mb-5'>
@@ -49,10 +49,10 @@ const Home =()=> {
             <Card style={{ width: '18rem' }}>
       <Card.Img variant="top"  src={"../../../Images/pic1.webp"} />
       <Card.Body>
-        <Card.Title>AIRDOPS</Card.Title>
+         <Card.Title>AIRDOPS</Card.Title>
         <Card.Text>
           Tune in now
-        </Card.Text>
+        </Card.Text> 
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
@@ -120,7 +120,7 @@ const Home =()=> {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     </>
   )
 }
